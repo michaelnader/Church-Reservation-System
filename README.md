@@ -67,23 +67,7 @@ JWT_SECRET=your_super_secret_jwt_key_change_this
 
 Make sure MongoDB is running on your machine or use MongoDB Atlas.
 
-### 4. Seed Predefined Rooms
-
-Run this command once to populate the database with predefined rooms:
-
-```bash
-node seedRooms.js
-```
-
-This will create 6 predefined rooms:
-- Main Hall
-- Sunday School Room
-- Prayer Room
-- Youth Meeting Room
-- Conference Room
-- Choir Practice Room
-
-### 5. Run the Server
+### 4. Run the Server
 
 **Development mode (with nodemon):**
 ```bash
@@ -272,6 +256,3 @@ The system automatically checks if:
 
 Created with ❤️ for church servants
 
-## 📄 License
-
-ISC
